@@ -1,0 +1,43 @@
+body {
+    width: 980px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+.btn {
+        border: 1px solid white;
+        width: 70px;
+        height: 70px;
+        background: white;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+    }
+     .btn:hover {
+        
+        background: #f70;
+        color: #fff;
+    }
+ 
+    #calculator-wrap {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        background: #eee;
+    }
+ 
+    #calculator {
+        width: 300px;
+        display: inline-block;
+    }
+ 
+    #inputVal {
+        width: 284px;
+        height: 30px;
+        border: 0;
+        font-size: 16px;
+        text-align: right;
+        margin-bottom: 5px;
+    }
